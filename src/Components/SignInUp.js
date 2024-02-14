@@ -145,7 +145,6 @@ const SignInUp = () => {
                 id="user-name"
                 name="name"
                 value={userSignUp.name}
-                placeholder="Peter Joseph"
                 onChange={handleSignUpChange}
                 required
                 pattern="[a-z A-Z]*"
@@ -159,7 +158,6 @@ const SignInUp = () => {
                 id="user-email"
                 name="email"
                 value={userSignUp.email}
-                placeholder="peter.j.torki@gmail.com"
                 onChange={handleSignUpChange}
                 required
               />
@@ -172,7 +170,6 @@ const SignInUp = () => {
                 id="user-password"
                 name="password"
                 value={userSignUp.password}
-                placeholder="Password"
                 onChange={handleSignUpChange}
                 required
               />
@@ -185,7 +182,6 @@ const SignInUp = () => {
                 id="user-phone"
                 name="phoneNumber"
                 value={userSignUp.phoneNumber}
-                placeholder="01211036617"
                 onChange={handleSignUpChange}
                 required
               />
@@ -198,7 +194,6 @@ const SignInUp = () => {
                 id="user-address"
                 name="address"
                 value={userSignUp.address}
-                placeholder="Cairo, Egypt"
                 onChange={handleSignUpChange}
                 required
               />
@@ -217,7 +212,6 @@ const SignInUp = () => {
                 id="user-in-email"
                 name="inEmail"
                 value={userLogIn?.email}
-                placeholder="peter.j.torki@gmail.com"
                 onChange={handleSignInChange}
               />
             </div>
@@ -228,7 +222,6 @@ const SignInUp = () => {
                 id="user-in-password"
                 name="inPassword"
                 value={userLogIn?.password}
-                placeholder="Password"
                 onChange={handleSignInChange}
               />
             </div>
