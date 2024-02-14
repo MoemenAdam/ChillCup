@@ -76,15 +76,6 @@ const SideBar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/ContactUs"} key={nanoid()} className={styles.link}>
-            {location.pathname === "/ContactUs" ? (
-              <AiFillPhone size={35} color={"#638F8F"} />
-            ) : (
-              <AiOutlinePhone size={30} color={"#638F8F"} />
-            )}
-          </NavLink>
-        </li>
-        <li>
           <NavLink to={"/Settings"} key={nanoid()} className={styles.link}>
             {location.pathname === "/Settings" ? (
               <IoSettingsSharp size={35} color={"#638F8F"} />
